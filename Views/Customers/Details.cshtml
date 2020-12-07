@@ -1,0 +1,35 @@
+﻿@@ -1,10 +1,10 @@
+@model RentalKendaraan_099.Models.Customer
+
+
+@{
+    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detail Data";
+}
+
+<h2>Details</h2>
+<h2>Customer</h2>
+
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NamaCustomer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NamaCustomer)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nik)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nik)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Alamat)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Alamat)
+        </dd>
+
