@@ -9,7 +9,7 @@ using System;
 
 namespace RentalKendaraan_099.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(RentalKendaraan_099.Models.RendKendaraanContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
